@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssmdemo.gj.dao.TermDao">
+	<insert id="saveStaProduct" parameterType="com.ssmdemo.gj.entity.Term">
+		insert into TB_BAS_SATELLITE_TERM (DATAID,SATELLITEID,SENSORID,SCENEDATE,PRODUCTLEVEL,
+			RECSTATIONID,OVERALLQUALITY,SCENEPATH,SCENEROW,PRODUCTNAME,STATE,PRODUCTPATH,FILESIZE,
+			PICTUREFORMAT,TOPLEFTLATITUDE,TOPLEFTLONGITUDE,TOPRIGHTLATITUDE,TOPRIGHTLONGITUDE,BOTTOMRIGHTLATITUDE,BOTTOMRIGHTLONGITUDE,
+			BOTTOMLEFTLATITUDE,BOTTOMLEFTLONGITUDE,INSTORAGEDATE,TESTSS,MYOBJSTATE,IMGOPERATESTATE,SCENEID,CATALOGID,PUSHDATE,PRODUCTID,
+			MOSAICPATH,PRODUCTCATEGORY) values (#{dataId},#{satelliteId},#{sensorId},#{sceneDate},#{},#{},#{},#{},#{},#{},#{},#{},
+			#{},#{},#{},#{},#{},#{},#{},#{},#{},#{},#{},
+			#{},#{},#{},#{},#{},#{},#{},#{},#{}) 
+	</insert>
+
+</mapper>
