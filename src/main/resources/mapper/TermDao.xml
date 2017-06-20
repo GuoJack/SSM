@@ -6,9 +6,10 @@
 			RECSTATIONID,OVERALLQUALITY,SCENEPATH,SCENEROW,PRODUCTNAME,STATE,PRODUCTPATH,FILESIZE,
 			PICTUREFORMAT,TOPLEFTLATITUDE,TOPLEFTLONGITUDE,TOPRIGHTLATITUDE,TOPRIGHTLONGITUDE,BOTTOMRIGHTLATITUDE,BOTTOMRIGHTLONGITUDE,
 			BOTTOMLEFTLATITUDE,BOTTOMLEFTLONGITUDE,INSTORAGEDATE,TESTSS,MYOBJSTATE,IMGOPERATESTATE,SCENEID,CATALOGID,PUSHDATE,PRODUCTID,
-			MOSAICPATH,PRODUCTCATEGORY) values (#{dataId},#{satelliteId},#{sensorId},#{sceneDate},#{},#{},#{},#{},#{},#{},#{},#{},
-			#{},#{},#{},#{},#{},#{},#{},#{},#{},#{},#{},
-			#{},#{},#{},#{},#{},#{},#{},#{},#{}) 
+			MOSAICPATH,PRODUCTCATEGORY) values (#{dataId},#{satelliteId},#{sensorId},#{sceneDate},#{productLevel},#{recstationId},#{overallquality},
+			#{scenePath},#{sceneRow},#{productName},#{state},#{productPath},#{fileSize},#{pictureFormat},#{topLeftLatitude},#{topLeftLongitude},
+			#{topRightLatitude},#{topRightLongitude},#{bottomLeftLatitude},#{bottomLeftLongitude},#{bottomRightLatitude},#{bottomRightLongitude},
+			#{instorageDate},#{testss},#{myObjState},#{imgOperateState},#{sceneId},#{catalogId},#{pushDate},#{productId},#{mosaicPath},#{productCategory}) 
 	</insert>
 
 </mapper>
